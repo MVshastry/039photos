@@ -16,7 +16,7 @@ async function uploadPhoto() {
     formData.append("type", file.type);
     formData.append("file", base64Data);
 
-    const uploadURL = https:"script.google.com/macros/s/AKfycbzj8KMHRtPKNJB1PtLGB89fDuwfbc5yzrIF_23qBTJ_LgFAJ7rR3Tez4PSJksthzwp5Xw/exec ";// replace this
+    const uploadURL = https:"https://script.google.com/macros/s/AKfycbx30fitPK02ISPREbtjG6xdlrvf9eBiE6Sv7kKPM_H9/dev";// replace this
 
     status.textContent = "Uploading...";
     const response = await fetch(uploadURL, { method: "POST", body: formData });
