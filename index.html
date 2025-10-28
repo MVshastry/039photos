@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Photo Website</title>
-  </head>
-  <body>
-    <h1>✅ My Photo Website is Live!</h1>
-    <p>If you see this message, GitHub Pages is working perfectly.</p>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Public Photo Upload</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📸 Upload Your Photo</h1>
+  <input type="file" id="photoInput" accept="image/*">
+  <button onclick="uploadPhoto()">Upload</button>
+  <p id="status"></p>
+  <script src="script.js"></script>
+</body>
 </html>
